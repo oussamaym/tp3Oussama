@@ -1,4 +1,4 @@
-package org.emsi.tp2oussama.jsf;
+package org.emsi.tp3oussama.jsf;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,11 +6,11 @@ import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
 
 /**
- * Backing bean pour champs Nombre du formulaire*
+ * Backing bean pour champs Nombre du formulaire 4*
  */
-@Named(value = "bean")
+@Named(value = "bean2")
 @RequestScoped
-public class Bean {
+public class Bean2 {
 
     private int nombre;
 
@@ -32,6 +32,6 @@ public class Bean {
     }
 
     public String afficher() {
-        return "affichage_3?nb=" + nombre + "&amp;faces-redirect=true";
+        return "affichage_4?nb=" + nombre + "&amp;faces-redirect=true";
     }
 }

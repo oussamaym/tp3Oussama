@@ -1,4 +1,4 @@
-package org.emsi.tp2oussama.resources;
+package org.emsi.tp3oussama.resources;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

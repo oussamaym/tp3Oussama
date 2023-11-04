@@ -1,4 +1,4 @@
-package org.emsi.tp2oussama;
+package org.emsi.tp3oussama;
 
 import jakarta.ws.rs.ApplicationPath;
 import jakarta.ws.rs.core.Application;
